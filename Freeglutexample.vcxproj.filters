@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="3dStruct\threeDModel.cpp">
+      <Filter>headers\3DStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Images\ImageLoading.cpp">
+      <Filter>headers\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj\OBJLoader.cpp">
+      <Filter>headers\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree\Octree.cpp">
+      <Filter>headers\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Structures\Vector3d.cpp">
+      <Filter>headers\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler\TextureHandler.cpp">
+      <Filter>headers\TextureHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\IntersectionTests.cpp">
+      <Filter>headers\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Box\Box.cpp">
+      <Filter>headers\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\Shader.cpp">
+      <Filter>headers\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3dStruct\threeDModel.h">
+      <Filter>headers\3DStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Images\ImageLoading.h">
+      <Filter>headers\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Images\FreeImage.h">
+      <Filter>headers\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj\OBJLoader.h">
+      <Filter>headers\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree\Octree.h">
+      <Filter>headers\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\Vector3d.h">
+      <Filter>headers\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler\TextureHandler.h">
+      <Filter>headers\TextureHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\IntersectionTests.h">
+      <Filter>headers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Box\Box.h">
+      <Filter>headers\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\Shader.h">
+      <Filter>headers\shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{fc837774-d0bb-4f04-9bf7-d9b28cb5f32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{9604e9f0-a9c7-48ca-bc3a-ca96f1aabe51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\glslfiles">
+      <UniqueIdentifier>{94cd8df4-a9b6-4d4a-b486-09e8b499715b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Box">
+      <UniqueIdentifier>{ede67b4e-bf8a-4108-b4b2-67c9fb9c8f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\3DStruct">
+      <UniqueIdentifier>{7f9ab6b0-4d0e-4076-800a-2bd805619429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Images">
+      <UniqueIdentifier>{aa9331e8-4656-4ec8-8aa8-addac4216121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Obj">
+      <UniqueIdentifier>{2cae383f-2227-4b7f-ae00-b03dd55c0e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Octree">
+      <UniqueIdentifier>{80f29e8c-cca7-4046-8fe2-659af2464ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Structures">
+      <UniqueIdentifier>{a65185b3-315d-443c-bff4-6bc006cadc8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\TextureHandler">
+      <UniqueIdentifier>{a4b12441-6f77-46b8-a7c8-38e7e6c1f27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Utilities">
+      <UniqueIdentifier>{b9a209e6-dfcf-43cc-8d10-fd297f092e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\shaders">
+      <UniqueIdentifier>{c715a860-d723-4985-8289-8bd7cadcb8e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glslfiles\basicTransformationsWithDisplacement.vert">
+      <Filter>headers\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basic.frag">
+      <Filter>headers\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basic.vert">
+      <Filter>headers\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basicTransformations.frag">
+      <Filter>headers\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basicTransformations.vert">
+      <Filter>headers\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basicTransformationsWithDisplacement.frag">
+      <Filter>headers\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basicTex.frag">
+      <Filter>headers\glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basicTex.vert">
+      <Filter>headers\glslfiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
